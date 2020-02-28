@@ -31,4 +31,3 @@ The [flight data](FlightData.json) is a JSON model for the given csv file.
 1) Open the com.virgin.holidays.departure.DepartureApplication.java and RUN the DepartureApplication.
 1) In the console verify the Application started without any issues. 
     Started DepartureApplication in 2.17 seconds (JVM running for 2.619)
-1) 
