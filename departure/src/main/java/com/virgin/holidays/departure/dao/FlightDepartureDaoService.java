@@ -5,6 +5,8 @@ import com.virgin.holidays.departure.model.FlightDeparture;
 import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -16,19 +18,12 @@ public class FlightDepartureDaoService implements FlightDepartureDao {
     @Override
     public List<FlightDeparture> selectFlightsDepartbyDay(FlightDays flightDays) {
         return DB.stream().filter(flightDeparture -> flightDeparture.getDepartureDays().stream().anyMatch(flightDays1 -> flightDays.equals(flightDays1))
-        ).sorted((f1, f2) -> (f1.getDepartureTime().compareTo(f2.getDepartureTime()))).collect(Collectors.toList());
+        ).sorted((Comparator.comparing(FlightDeparture::getDepartureTime))).collect(Collectors.toList());
     }
 
     @Override
     public int insertFlightDepartures(FlightDeparture[] flightDepartures) {
-        for (FlightDeparture flightDeparture : flightDepartures) {
-            DB.add(new FlightDeparture(flightDeparture.getDepartureTime(),
-                    flightDeparture.getDestination(),
-                    flightDeparture.getDestAirportIATA(),
-                    flightDeparture.getFlightNumber(),
-                    flightDeparture.getDepartureDays())
-            );
-        }
+        DB.addAll(Arrays.stream(flightDepartures).collect(Collectors.toList()));
         return 1;
     }
 
