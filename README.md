@@ -25,4 +25,10 @@ The [flight data](FlightData.json) is a JSON model for the given csv file.
 1) Creating the UI, where user can select the date from Calendar to fetch the Flight departure details.
 
 ## Depoly and Run
-1) tbd
+1) Download the folder "departure" to your local folder.
+1) In IDE (I have used IntelliJ) create a project by selecting the file pom.xml inside the departure folder.
+1) The SDK should be Java 8 and above, and make sure the project built without any issue after downloading the dependency.
+1) Open the com.virgin.holidays.departure.DepartureApplication.java and RUN the DepartureApplication.
+1) In the console verify the Application started without any issues. 
+    Started DepartureApplication in 2.17 seconds (JVM running for 2.619)
+1) 
