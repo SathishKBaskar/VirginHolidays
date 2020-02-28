@@ -1,0 +1,191 @@
+[
+   {
+      "departureTime": "09:00",
+      "destination": "Antigua",
+      "destAirportIATA": "ANU",
+      "flightNumber": "VS033",
+      "departureDays": [ "TUE" ]
+   },
+   {
+      "departureTime": "10:00",
+      "destination": "Antigua",
+      "destAirportIATA": "ANU",
+      "flightNumber": "VS033",
+      "departureDays": [ "THU" , "SAT"] 
+   },
+   {
+      "departureTime": "11:05",
+      "destination": "Barbados",
+      "destAirportIATA": "BGI",
+      "flightNumber": "VS029",
+      "departureDays": [ "SUN" , "MON" , "TUE" , "WED" , "THU" , "FRI" , "SAT"] 
+   },
+   {
+      "departureTime": "12:20",
+      "destination": "Cancun",
+      "destAirportIATA": "CUN",
+      "flightNumber": "VS093",
+      "departureDays": [ "TUE"]
+   },
+   {
+      "departureTime": "09:00",
+      "destination": "Grenada",
+      "destAirportIATA": "GND",
+      "flightNumber": "VS089",
+      "departureDays": [ "MON"]
+   },
+   {
+      "departureTime": "10:10",
+      "destination": "Grenada",
+      "destAirportIATA": "GND",
+      "flightNumber": "VS089",
+      "departureDays": [ "FRI"]
+   },
+   {
+      "departureTime": "10:15",
+      "destination": "Havana",
+      "destAirportIATA": "HAV",
+      "flightNumber": "VS063",
+      "departureDays": [ "TUE"]
+   },
+   {
+      "departureTime": "10:15",
+      "destination": "Havana",
+      "destAirportIATA": "HAV",
+      "flightNumber": "VS063",
+      "departureDays": [ "MON" , "THU"]
+   },
+   {
+      "departureTime": "10:15",
+      "destination": "Las Vegas",
+      "destAirportIATA": "LAS",
+      "flightNumber": "VS043",
+      "departureDays": [ "SUN" , "FRI" , "SAT"]
+   },
+   {
+      "departureTime": "10:25",
+      "destination": "Las Vegas",
+      "destAirportIATA": "LAS",
+      "flightNumber": "VS043",
+      "departureDays": [ "THU"]
+   },
+   {
+      "departureTime": "10:35",
+      "destination": "Las Vegas",
+      "destAirportIATA": "LAS",
+      "flightNumber": "VS043",
+      "departureDays": [ "MON" , "TUE" , "WED"]
+   },
+   {
+      "departureTime": "15:35",
+      "destination": "Las Vegas",
+      "destAirportIATA": "LAS",
+      "flightNumber": "VS044",
+      "departureDays": [ "SUN" , "MON" , "TUE" , "WED" , "THU" , "FRI" , "SAT"]
+   },
+   {
+      "departureTime": "12:25",
+      "destination": "Montego Bay",
+      "destAirportIATA": "MBJ",
+      "flightNumber": "VS065",
+      "departureDays": [ "WED"]
+   },
+   {
+      "departureTime": "12:40",
+      "destination": "Montego Bay",
+      "destAirportIATA": "MBJ",
+      "flightNumber": "VS065",
+      "departureDays": [ "SUN"]
+   },
+   {
+      "departureTime": "10:10",
+      "destination": "Orlando",
+      "destAirportIATA": "MCO",
+      "flightNumber": "VS049",
+      "departureDays": [ "SUN"]
+   },
+   {
+      "departureTime": "10:15",
+      "destination": "Orlando",
+      "destAirportIATA": "MCO",
+      "flightNumber": "VS027",
+      "departureDays": [ "WED"]
+   },
+   {
+      "departureTime": "11:00",
+      "destination": "Orlando",
+      "destAirportIATA": "MCO",
+      "flightNumber": "VS027",
+      "departureDays": [ "MON"]
+   },
+   {
+      "departureTime": "11:10",
+      "destination": "Orlando",
+      "destAirportIATA": "MCO",
+      "flightNumber": "VS049",
+      "departureDays": [ "MON"]
+   },
+   {
+      "departureTime": "11:20",
+      "destination": "Orlando",
+      "destAirportIATA": "MCO",
+      "flightNumber": "VS027",
+      "departureDays": [ "FRI" , "SAT"]
+   },
+   {
+      "departureTime": "11:35",
+      "destination": "Orlando",
+      "destAirportIATA": "MCO",
+      "flightNumber": "VS027",
+      "departureDays": [ "THU"]
+   },
+   {
+      "departureTime": "11:45",
+      "destination": "Orlando",
+      "destAirportIATA": "MCO",
+      "flightNumber": "VS027",
+      "departureDays": [ "SUN" , "TUE"]
+   },
+   {
+      "departureTime": "11:45",
+      "destination": "Orlando",
+      "destAirportIATA": "MCO",
+      "flightNumber": "VS049",
+      "departureDays": [ "WED"]
+   },
+   {
+      "departureTime": "13:00",
+      "destination": "Orlando",
+      "destAirportIATA": "MCO",
+      "flightNumber": "VS015",
+      "departureDays": [ "SUN" , "MON" , "TUE" , "WED" , "THU" , "FRI" , "SAT"]
+   },
+   {
+      "departureTime": "09:00",
+      "destination": "St Lucia",
+      "destAirportIATA": "UVF",
+      "flightNumber": "VS089",
+      "departureDays": [ "MON"]
+   },
+   {
+      "departureTime": "09:00",
+      "destination": "St Lucia",
+      "destAirportIATA": "UVF",
+      "flightNumber": "VS097",
+      "departureDays": [ "SUN"]
+   },
+   {
+      "departureTime": "10:10",
+      "destination": "St Lucia",
+      "destAirportIATA": "UVF",
+      "flightNumber": "VS089",
+      "departureDays": [ "FRI"]
+   },
+   {
+      "departureTime": "09:00",
+      "destination": "Tobago",
+      "destAirportIATA": "TAB",
+      "flightNumber": "VS097",
+      "departureDays": [ "SUN" ]
+   }
+]
