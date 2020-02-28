@@ -9,6 +9,10 @@ And also the service for business logic, in this case fetch the departures for t
 ##### JSON to load the Flight Data
 The [flight data](FlightData.json) is a JSON model for the given csv file.
 
+##### Test Phase 1 using Postman app.
+1) After starting the application in the local IDE as mentioned in the [Depoly and Run](#deploy-and-run) the appliction.
+1) Load the [flight data](FlightData.json), using the POST request localhost:8080/api/departure/
+1) Retreive the flight data for the day by using the Day in the GET request localhost:8080/api/departure/WED
 
 ## Phase 2 - tbd
 1) The Flight data CSV can be loaded using @PostConstruct, which will be called after default constructor of Service Bean
@@ -19,3 +23,6 @@ The [flight data](FlightData.json) is a JSON model for the given csv file.
 
 ## Phase 3 - tbd
 1) Creating the UI, where user can select the date from Calendar to fetch the Flight departure details.
+
+## Depoly and Run
+1) tbd
