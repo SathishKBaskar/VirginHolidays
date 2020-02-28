@@ -20,7 +20,7 @@ public class FlightDeparture {
                            @JsonProperty("destination") String destination,
                            @JsonProperty("destAirportIATA") String destAirportIATA,
                            @JsonProperty("flightNumber") String flightNumber,
-                           @JsonProperty("Days") List<FlightDays> departureDays) {
+                           @JsonProperty("departureDays") List<FlightDays> departureDays) {
         this.departureTime = departureTime;
         this.destination = destination;
         this.destAirportIATA = destAirportIATA;
