@@ -10,7 +10,7 @@ And also the service for business logic, in this case fetch the departures for t
 The [flight data](FlightData.json) is a JSON model for the given csv file.
 
 ##### Test Phase 1 using Postman app.
-1) After starting the application in the local IDE as mentioned in the [Depoly and Run](#deploy-and-run) the appliction.
+1) After starting the application in the local IDE as mentioned in the [Depoly and Run](#deploy-and-run).
 1) Load the [flight data](FlightData.json), using the POST request localhost:8080/api/departure/
 1) Retreive the flight data for the day by using the Day in the GET request localhost:8080/api/departure/WED
 
