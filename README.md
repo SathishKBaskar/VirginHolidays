@@ -7,4 +7,10 @@ And also the service for business logic, in this case fetch the departures for t
 1) There is no View/UI is created, the POST and GET methods are tested using Postman app.
 
 ## Phase 2
-1) The Flight data CSV should be loaded using @PostConstruct, which call after default constructor of Service Bean
+1) The Flight data CSV can be loaded using @PostConstruct, which will be called after default constructor of Service Bean
+1) ResourceLoader of org.springframework.core.io.ResourceLoader package, can be used to read the csv from the resources folder.
+1) The input to find the day from the given date and year, rather giving the day directly to fetch the flight departure details.
+1) Completing the UNIT test.
+
+## Phase 3
+1) Creating the UI, where user can select the date from Calendar to fetch the Flight departure details.
